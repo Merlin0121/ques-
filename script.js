@@ -1,5 +1,4 @@
-// Created by Vaishnavi Chauhan 
-
+//Merlin's magic 
 let userName = "";
 let partnerName = "";
 let loveScore = 0;
