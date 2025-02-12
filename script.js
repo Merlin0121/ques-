@@ -63,7 +63,7 @@ function showResult() {
     let finalScore = Math.min(loveScore / questions.length, 100); // Limit to 100%
     document.getElementById("love-percent").innerText = `❤️ ${userName} & ${partnerName}: ${finalScore.toFixed(0)}% Love ❤️`;
 
-    let message = finalScore = 100 ? 
+    let message = finalScore === 100 ? 
         "All wishes or plans for each other are worthy of respect. You two are a perfect match! 💑 Happy Valentine's Day! 💘" :
         finalScore > 50 ? 
         "Your love is strong! Keep cherishing each other! 💕" :
