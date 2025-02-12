@@ -1,0 +1,74 @@
+/* Created by Vaishnavi Chauhan */
+
+/* General Styling */
+body {
+    background-color: #ffebee;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Containers */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Title */
+h1 {
+    color: #e91e63;
+    text-shadow: 0 0 10px #ff4081;
+}
+
+/* Inputs */
+input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #e91e63;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Buttons */
+button {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff4081;
+    transform: scale(1.1);
+}
+
+/* Love Percentage */
+#love-percent {
+    font-size: 2em;
+    font-weight: bold;
+    color: #d50000;
+    animation: pop 1s infinite alternate;
+}
+
+@keyframes pop {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
